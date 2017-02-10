@@ -12,7 +12,6 @@ def get_req_data(req):
 
 class Resource:
     def on_post(self, req, resp):
-        """Handles GET requests"""
 
         req_data = None
         try:
